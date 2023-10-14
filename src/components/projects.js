@@ -17,7 +17,7 @@ const projects = () => {
       },
       {
         title: "Muslim Ratio",
-        role: "Halal Haram Ratio Calcualtor",
+        role: "Halal Haram Ratio Calculator",
         duration: "HTML, CSS, JavaScript",
         url: "http://muslimratio.com"
       },
