@@ -28,7 +28,7 @@ const projects = () => {
       },
       {
         title: "Expense Tracker",
-        role: "Finance Calculator with advnaced categorization",
+        role: "Finance Calculator with advanced categorization",
         duration: "React, Node.js",
         url: "https://expense-tracker-one-umber.vercel.app/"
       },
