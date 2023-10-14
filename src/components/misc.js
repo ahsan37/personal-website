@@ -5,7 +5,7 @@ const MISC = () => {
   const miscy = [
     {
         title: "DIY Distributed Modal Speakers",
-        role: "First hardware project",
+        role: "First hardware project + Blog",
         duration: "2022",
         url: "https://medium.com/@ahsan-waseem/building-the-worlds-best-speakers-at-home-14435b7a150"  
       },
