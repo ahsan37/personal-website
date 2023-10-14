@@ -34,7 +34,7 @@ const projects = () => {
       },
       {
         title: "GPT-3 Song Generator",
-        role: "First AI Project",
+        role: "First AI Project - gpt wrapper (classic)",
         duration: "React, JavaScript",
         url: "https://gpt3-song-generator.vercel.app/"
       },
