@@ -17,16 +17,14 @@ function App() {
       </header>
 
       <section className="App-intro">
-        <p>I'm him.</p>
-        <p>Socially ^</p>
-        <p>Professionally, I am a Product Manager at Microsoft.</p>
-        <p>I graduated from Texas A&M University, <i>ivy of the south they say</i>, in May of 2023 with a Bachelor of Science in Multidiscipliary Engineering with a concentration in Computer Science and Business.</p>
+        <h5>Hey <span class="wave">👋</span></h5>
+        <p>Thanks for visiting my website!</p>
+        <p>I'm a Product Manager that loves to code; currently working at Microsoft!</p>
+        <p>I graduated from Texas A&M University in May of 2023 where I received a Bachelor of Science in Multidiscipliary Engineering with a concentration in Computer Science and Business.</p>
         <p>
-          I started to code after reading the Almanack of Naval Ravikant and learning about permissionless leverage. A month after reading that book I created a website that reached 150k+ users in 70+ countries. Now, I seek that leverage he talks about.
+        I started to code after reading the Almanack of Naval Ravikant and learning about permissionless leverage. A month after reading that book I created a website that reached 150k+ users in 70+ countries. Now, I seek that leverage he talks about.
         </p>
-        <p>
-         When I'm exhausted being him, I'm just Ahsan, a silly goofy little (6 foot 2) dude!
-        </p>
+    
       </section>
 
       <Location />
