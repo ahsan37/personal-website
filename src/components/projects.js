@@ -4,9 +4,15 @@ import './projects.css';
 const projects = () => {
   const proj = [
     {
+      title: "Cashew",
+      role: "Expense tracking web app",
+      duration: "React, Node.js",
+      url: "https://cashewtrack.com"
+    },
+    {
         title: "Muslim AI",
-        role: "AI Q&A Bot for the Quran",
-        duration: "React, Next.js, TypeScript",
+        role: "AI Q&A bot for the Quran",
+        duration: "TypeScript, Next.js",
         url: "https://www.muslimai.io"  
       },
       {
@@ -27,18 +33,6 @@ const projects = () => {
         duration: "Python"
       },
       {
-        title: "Expense Tracker",
-        role: "Finance Calculator with advanced categorization",
-        duration: "React, Node.js",
-        url: "https://expense-tracker-one-umber.vercel.app/"
-      },
-      {
-        title: "GPT-3 Song Generator",
-        role: "First AI Project - gpt wrapper (classic)",
-        duration: "React, JavaScript",
-        url: "https://gpt3-song-generator.vercel.app/"
-      },
-      {
         title: "Generative Art",
         role: "Art using Math",
         duration: "C++",
@@ -51,7 +45,6 @@ const projects = () => {
       {proj.map((prj, index) => (
         <div key={index} className="project-card">
           <div>
-            {/* Job Title as Link */}
             <div className="project-title">
               <a href={prj.url} target="_blank" rel="noopener noreferrer">
                 {prj.title}
