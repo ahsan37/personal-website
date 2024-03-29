@@ -12,7 +12,7 @@ function App() {
         <nav>
           <a href="https://github.com/ahsan37">GitHub</a>
           <a href="https://www.linkedin.com/in/ahsan-waseem/">LinkedIn</a>
-          <a href="mailto:wahsan77@yahoo.com">Contact</a>
+          <a href="mailto:ahsanwaseem1120@gmail.com">Contact</a>
         </nav>
       </header>
 
