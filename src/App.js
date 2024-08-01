@@ -20,9 +20,9 @@ function App() {
         <h5>Hey <span class="wave">👋</span></h5>
         <p>Thanks for visiting my website!</p>
         <p>I'm a Product Manager that loves to code; currently working at Microsoft!</p>
-        <p>I graduated from Texas A&M University in May of 2023 where I received a Bachelor of Science in Multidiscipliary Engineering with a concentration in Computer Science and Business.</p>
+        <p>I graduated from Texas A&M University in May of 2023 where I received a Bachelor of Science in Multidiscipliary Engineering with a concentration in Computer Science.</p>
         <p>
-        I started to code after reading the Almanack of Naval Ravikant and learning about permissionless leverage. A month after reading that book I created a website that reached 150k+ users in 70+ countries. Now, I seek that leverage he talks about.
+        In college, I explored various mediums of creation like music production, podcasts, and video editing. After reading the Almanack of Naval Ravikant and learning about his philosophy of permissionless leverage, I learned to code. A month after reading that book, I created a website that reached over 150k users in more than 100 countries. Now, I seek the leverage he talks about.
         </p>
     
       </section>
