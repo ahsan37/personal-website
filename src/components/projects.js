@@ -5,8 +5,8 @@ const projects = () => {
   const proj = [
     {
       title: "Cashew",
-      role: "Expense tracking web app",
-      duration: "React, Node.js",
+      role: "Expense tracking app",
+      duration: "React Native, Node.js",
       url: "https://cashewtrack.com"
     },
     {
