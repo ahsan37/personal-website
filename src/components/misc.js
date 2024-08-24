@@ -10,7 +10,7 @@ const MISC = () => {
         url: "https://medium.com/@ahsan-waseem/building-the-worlds-best-speakers-at-home-14435b7a150"  
       },
       {
-        title: "Diagetic Sounds Music Video",
+        title: "Diegetic Sounds Music Video",
         role: "Funky Video Project for fun",
         duration: "2021",
         url: "https://youtu.be/WhJFQaDtygw"
