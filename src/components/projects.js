@@ -5,13 +5,25 @@ const projects = () => {
   const proj = [
     {
       title: "Cashew",
-      role: "Expense tracking app",
+      role: "Expense tracking iOS app",
       duration: "React Native, Node.js",
       url: "https://cashewtrack.com"
     },
     {
+      title: "ExaGene",
+      role: "Genomic analysis tool for 23andMe data",
+      duration: "TypeScript, Node.js",
+      url: "https://github.com/ahsan37/Gene-Analyzer"
+    },
+    {
+      title: "Twitter Hackathon Proj.",
+      role: "AI Feed Filtering tool - 3rd Place Winners",
+      duration: "React, Rust, Python",
+      url: "https://github.com/santiagomed/x-customized-feed"
+    },
+    {
         title: "Muslim AI",
-        role: "AI Q&A bot for the Quran",
+        role: "AI Q&A bot for the Quran - 6k+ queries answered",
         duration: "TypeScript, Next.js",
         url: "https://www.muslimai.io"  
       },
@@ -23,7 +35,7 @@ const projects = () => {
       },
       {
         title: "Muslim Ratio",
-        role: "Halal Haram Ratio Calculator",
+        role: "Halal Haram Ratio Calculator - 200k+ users",
         duration: "HTML, CSS, JavaScript",
         url: "http://muslimratio.com"
       },
@@ -41,7 +53,7 @@ const projects = () => {
 
   return (
     <div className="project-section">
-        <h4 className='proj-title'>Noteable Software Projects</h4>
+        <h4 className='proj-title'>Software Projects</h4>
       {proj.map((prj, index) => (
         <div key={index} className="project-card">
           <div>
