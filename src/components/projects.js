@@ -16,8 +16,14 @@ const projects = () => {
       url: "https://github.com/santiagomed/x-customized-feed"
     },
     {
+      title: "Voice Agent Testing Simulation",
+      role: "Bullish on Voice",
+      duration: "Python",
+      url: "https://github.com/ahsan37/voice-agent"
+    },
+    {
       title: "Cashew",
-      role: "Expense tracking iOS app",
+      role: "Automatic expense tracking iOS app with Plaid",
       duration: "React Native, Node.js",
       url: "https://cashewtrack.com"
     },
