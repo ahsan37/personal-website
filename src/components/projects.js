@@ -4,12 +4,6 @@ import './projects.css';
 const projects = () => {
   const proj = [
     {
-      title: "Cashew",
-      role: "Expense tracking iOS app",
-      duration: "React Native, Node.js",
-      url: "https://cashewtrack.com"
-    },
-    {
       title: "ExaGene",
       role: "Genomic analysis tool for 23andMe data",
       duration: "TypeScript, Node.js",
@@ -20,6 +14,12 @@ const projects = () => {
       role: "AI Feed Filtering tool - 3rd Place Winners",
       duration: "React, Rust, Python",
       url: "https://github.com/santiagomed/x-customized-feed"
+    },
+    {
+      title: "Cashew",
+      role: "Expense tracking iOS app",
+      duration: "React Native, Node.js",
+      url: "https://cashewtrack.com"
     },
     {
         title: "Muslim AI",
