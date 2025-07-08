@@ -4,6 +4,12 @@ import './projects.css';
 const projects = () => {
   const proj = [
     {
+      title: "SMS->GCAL",
+      role: "Text message to GCAL bot",
+      duration: "Python",
+      url: "https://github.com/ahsan37/SMS_to_GCAL"
+    },
+    {
       title: "ExaGene",
       role: "Genomic analysis tool for 23andMe data",
       duration: "TypeScript, Node.js",
