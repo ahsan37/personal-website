@@ -34,7 +34,7 @@ const projects = () => {
       url: "https://www.muslimai.io"  
     },
     {
-      title: "Voice Agent Testing Simulation",
+      title: "AI Voice Agent Simulator",
       role: "Bullish on Voice",
       duration: "Python",
       url: "https://github.com/ahsan37/voice-agent"
