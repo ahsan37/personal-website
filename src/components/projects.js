@@ -10,6 +10,12 @@ const projects = () => {
       url: "https://github.com/ahsan37/SMS_to_GCAL"
     },
     {
+      title: "Cashew",
+      role: "Automatic expense tracking iOS app with Plaid",
+      duration: "React Native, Node.js",
+      url: "https://cashewtrack.com"
+    },
+    {
       title: "ExaGene",
       role: "Genomic analysis tool for 23andMe data",
       duration: "TypeScript, Node.js",
@@ -22,10 +28,10 @@ const projects = () => {
       url: "https://github.com/santiagomed/x-customized-feed"
     },
     {
-      title: "Cashew",
-      role: "Automatic expense tracking iOS app with Plaid",
-      duration: "React Native, Node.js",
-      url: "https://cashewtrack.com"
+      title: "Muslim AI",
+      role: "AI Q&A bot for the Quran - 6k+ queries answered",
+      duration: "TypeScript, Next.js",
+      url: "https://www.muslimai.io"  
     },
     {
       title: "Voice Agent Testing Simulation",
@@ -34,33 +40,27 @@ const projects = () => {
       url: "https://github.com/ahsan37/voice-agent"
     },
     {
-        title: "Muslim AI",
-        role: "AI Q&A bot for the Quran - 6k+ queries answered",
-        duration: "TypeScript, Next.js",
-        url: "https://www.muslimai.io"  
-      },
-      {
-        title: "MetaMusic",
-        role: "Decentralized App to send music on Ethereum blockchain",
-        duration: "Solidity, JavaScript",
-        url: "https://waveportal-starter-project.ahsanwaseem.repl.co/"
-      },
-      {
-        title: "Muslim Ratio",
-        role: "Halal Haram Ratio Calculator - 200k+ users",
-        duration: "HTML, CSS, JavaScript",
-        url: "http://muslimratio.com"
-      },
-      {
-        title: "Personal Discord Bot",
-        role: "Personalized AI Chatbot to communicate to my alter-ego",
-        duration: "Python"
-      },
-      {
-        title: "Generative Art",
-        role: "Art using Math",
-        duration: "C++",
-      },
+      title: "Muslim Ratio",
+      role: "Halal Haram Ratio Calculator - 200k+ users",
+      duration: "HTML, CSS, JavaScript",
+      url: "http://muslimratio.com"
+    },
+    {
+      title: "MetaMusic",
+      role: "Decentralized App to send music on Ethereum blockchain",
+      duration: "Solidity, JavaScript",
+      url: "https://waveportal-starter-project.ahsanwaseem.repl.co/"
+    },
+    {
+      title: "Personal Discord Bot",
+      role: "Personalized AI Chatbot to communicate to my alter-ego",
+      duration: "Python"
+    },
+    {
+      title: "Generative Art",
+      role: "Art using Math",
+      duration: "C++",
+    },
   ];
 
   return (
