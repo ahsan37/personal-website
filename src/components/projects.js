@@ -43,7 +43,7 @@ const projects = () => {
       title: "Muslim Ratio",
       role: "Halal Haram Ratio Calculator - 200k+ users",
       duration: "HTML, CSS, JavaScript",
-      url: "http://muslimratio.com"
+      url: "https://www.muslimratio.com/"
     },
     {
       title: "MetaMusic",
