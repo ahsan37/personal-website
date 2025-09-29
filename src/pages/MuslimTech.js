@@ -14,24 +14,7 @@ const MuslimTech = () => {
         </header>
         
         <article className="writing-content">
-          <p>
-            Your writing content goes here. Explore how Islamic values can guide ethical technology development.
-          </p>
           
-          <h2>The Intersection of Faith and Technology</h2>
-          <p>
-            Discuss how Islamic principles can inform technology decisions...
-          </p>
-          
-          <h2>Building for the Ummah</h2>
-          <p>
-            Share your thoughts on creating technology that serves the Muslim community...
-          </p>
-          
-          <h2>Ethical Considerations</h2>
-          <p>
-            Explore the ethical frameworks that guide your work...
-          </p>
           
           <h2>Projects and Impact</h2>
           <p>
