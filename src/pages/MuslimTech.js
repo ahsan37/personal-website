@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './WritingPage.css';
 
 const MuslimTech = () => {
@@ -44,7 +45,7 @@ const MuslimTech = () => {
         </article>
         
         <footer className="writing-footer">
-          <a href="/" className="back-link">← Back to Home</a>
+          <Link to="/" className="back-link">← Back to Home</Link>
         </footer>
       </div>
     </div>

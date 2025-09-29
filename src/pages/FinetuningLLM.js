@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './WritingPage.css';
 
 const FinetuningLLM = () => {
@@ -6,7 +7,7 @@ const FinetuningLLM = () => {
     <div className="writing-page">
       <div className="writing-container">
         <nav className="writing-nav">
-          <a href="/" className="back-link">← Back to Home</a>
+          <Link to="/" className="back-link">← Back to Home</Link>
         </nav>
         <header className="writing-header">
           <h1>Fine-Tuning Llama on My iMessage Data</h1>

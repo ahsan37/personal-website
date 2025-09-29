@@ -4,11 +4,13 @@ import Home from './components/Home';
 import FinetuningLLM from './pages/FinetuningLLM';
 import MentalModels2024 from './pages/MentalModels2024';
 import MuslimTech from './pages/MuslimTech';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <header className="App-header">
           <h1><Link to="/" style={{textDecoration: 'none', color: 'inherit'}}>Ahsan Waseem</Link></h1>
