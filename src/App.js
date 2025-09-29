@@ -1,41 +1,36 @@
 import React from 'react';
-import Projects from './components/projects';
-import Location from './components/location';
-import MISC from './components/misc';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import FinetuningLLM from './pages/FinetuningLLM';
+import MentalModels2024 from './pages/MentalModels2024';
+import MuslimTech from './pages/MuslimTech';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ahsan Waseem</h1>
-        <nav>
-          <a href="https://github.com/ahsan37">GitHub</a>
-          <a href="https://www.linkedin.com/in/ahsan-waseem/">LinkedIn</a>
-          <a href="mailto:ahsanwaseem1120@gmail.com">Contact</a>
-        </nav>
-      </header>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1><Link to="/" style={{textDecoration: 'none', color: 'inherit'}}>Ahsan Waseem</Link></h1>
+          <nav>
+            <a href="https://github.com/ahsan37">GitHub</a>
+            <a href="https://www.linkedin.com/in/ahsan-waseem/">LinkedIn</a>
+            <a href="mailto:ahsanwaseem1120@gmail.com">Contact</a>
+          </nav>
+        </header>
 
-      <section className="App-intro">
-        <h5>Hey <span class="wave">👋</span></h5>
-        <p>Thanks for visiting my website!</p>
-        <p>I'm a Product Manager that loves to code; currently working at Microsoft!</p>
-        <p>I graduated from Texas A&M University in 2023 with a concentration in Computer Science.</p>
-        <p>
-        Pre-college, I explored various mediums of creation like music production, podcasts, and video editing. After reading the Almanack of Naval Ravikant and learning about his philosophy of permissionless leverage, I was inspired to code. A month after reading that book, I created a website that reached over 200k users; now I seek the leverage he talks about.
-        </p>
-    
-      </section>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/writings/finetuning-llm" element={<FinetuningLLM />} />
+          <Route path="/writings/mental-models-2024" element={<MentalModels2024 />} />
+          <Route path="/writings/muslim-tech" element={<MuslimTech />} />
+        </Routes>
 
-      <Location />
-      <Projects />
-      <MISC />
-
-
-      <footer>
-        {/* Add footer if necessary */}
-      </footer>
-    </div>
+        <footer>
+          {/* Add footer if necessary */}
+        </footer>
+      </div>
+    </Router>
   );
 }
 
