@@ -267,7 +267,7 @@ def load_model(base, adapters, dtype="bfloat16", load_in_4bit=True):
           
           <div className="chart-container">
             <img 
-              src="/Screenshot%202025-09-29%20at%204.58.18%20PM.png" 
+              src="/inference-example.png" 
               alt="Inference example showing the model chatting in my texting style" 
               className="chart-image"
             />
