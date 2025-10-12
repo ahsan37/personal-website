@@ -9,12 +9,12 @@ const projects = () => {
       duration: "Python",
       url: "https://github.com/ahsan37/iMessage-QLoRA"
     },
-    {
-      title: "Dupe",
-      role: "AI Duplicates for Knolwledge Workers",
-      duration: "Next.js, TypeScript, Python",
-      url: "https://github.com/ahsan37/Dupe"
-    },
+    // {
+    //   title: "Dupe",
+    //   role: "AI Duplicates for Knolwledge Workers",
+    //   duration: "Next.js, TypeScript, Python",
+    //   url: "https://github.com/ahsan37/Dupe"
+    // },
     {
       title: "SMS->GCAL",
       role: "Text message to GCAL bot",
