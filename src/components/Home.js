@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <section className="App-intro">
-        <h5>Hey <span className="wave">👋</span></h5>
+        <h5>Howdy <span className="wave">👋</span></h5>
         <p>Thanks for visiting my website!</p>
         <p>I graduated from Texas A&M University in 2023 with a concentration in Computer Science and I currently work at Microsoft!</p>
         <p>

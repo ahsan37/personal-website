@@ -12,7 +12,7 @@ const FinetuningLLM = () => {
           <Link to="/" className="back-link">← Back to Home</Link>
         </nav>
         <header className="writing-header">
-          <h1>Fine-Tuning Llama on My iMessage Data</h1>
+          <h1>Fine-Tuning an LLM to talk like me!</h1>
           <div className="writing-meta">
             <span className="writing-date">2025</span>
           </div>
@@ -21,6 +21,13 @@ const FinetuningLLM = () => {
         <article className="writing-content">
           <p>
             For a fun weekend project, I decided to finetune an LLM on all of my iMessage data to see if I could get a model to convincingly impersonate me.
+          </p>
+          <p>
+            <em>spoiler: it worked quite well! example at the bottom of the page.</em>
+          </p>
+
+          <p>
+            I feel like everyone should try this, your iMessage data is the richest repository of high quality data thats totally unique to you!
           </p>
           
           <p>
@@ -268,7 +275,7 @@ else:
           <h2>Step Four: Fine-tuning with QLoRA + Unsloth</h2>
           <p>
             I trained the model with Unsloth, which makes QLoRA really easy. QLoRA basically means I didn't have to update all 8B parameters of the model since it's unnecessary for this task. I used the 8B Llama-3.1 model in 4-bit precision to fit on a single rented GPU.
-          </p>
+          </p>-
           
           <p>
           The setup matched my dataset: 2048 tokens max length, with packing turned on. I am no AI Researcher so most of the params were chosen off of vibes and light googling. The LoRA settings (r=16, alpha=32) are pretty standard and training itself was light: 2 epochs, an effective batch size of 32 , and a learning rate of 1e-4 with a cosine schedule. Supposedly just enough to teach the model how I text without overfitting.

@@ -5,8 +5,7 @@ import './writings.css';
 const writings = () => {
   const writingsList = [
     {
-      title: "Finetuning an LLM on my text message data",
-      date: "2025",
+      title: "Finetuning an LLM to talk like me",
       route: "/writings/finetuning-llm"
     },
     {
