@@ -42,6 +42,25 @@
   font-weight: 400;
 }
 
+.writing-divider {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+.github-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: color 0.3s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.github-link:hover {
+  color: #0a0a0a;
+}
+
 .writing-content {
   line-height: 1.7;
   color: #333;

@@ -15,6 +15,15 @@ const FinetuningLLM = () => {
           <h1>Fine-Tuning an LLM to talk like me!</h1>
           <div className="writing-meta">
             <span className="writing-date">2025</span>
+            <span className="writing-divider">•</span>
+            <a 
+              href="https://github.com/ahsan37/iMessage-QLoRA" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              GitHub →
+            </a>
           </div>
         </header>
         
